@@ -104,9 +104,12 @@ print page ->
           Que ce soit pour communiquer, s'informer ou se divertir, nous utilisons de l'électronique.
           Tout ceci est du confort auquel nous ne souhaitons pas renoncer.
           Notre projet n'est pas de se séparer de tout ceci, mais uniquement de l'apprécier de manière responsable.
+        ]]
 
+        p [[
           De plus nous pensons que la communication entre les personnes, telle que permise par Internet, est salutaire.
-          Ce serait une erreur de s'en priver.
+          Ce serait une erreur de s'en priver : communiquer sur ce que l'on fait, nos réussites et nos échecs, et même simplement notre quotidien est important.
+          Il faut montrer aux gens qu'une alternative est possible.
         ]]
 
   section class: "section", ->
@@ -116,7 +119,8 @@ print page ->
       div class: "content", ->
         p [[
           L'écologie n'est qu'un moyen : protéger l'environnement c'est se protéger nous-mêmes.
-          Si notre environnement est menacé, notre nourriture l'est également, et donc par conséquent notre santé.
+          Si notre environnement est menacé, notre nourriture l'est également, et donc par conséquent notre santé, notre mode de vie, notre avenir en tant qu'espèce.
+          Notre mode de vie, plus simple, permet de réduire drastiquement notre empreinte et se place dans la mouvance de décroissance.
         ]]
 
   section class: "section", ->
@@ -143,7 +147,7 @@ print page ->
         p [[
           La vie en communauté a plusieurs avantages : réduire des coûts (chauffage, terrain, transports, …) et factoriser le travail (conception de l'habitat par exemple).
           Là où la vie en autarcie serait très contraignante seul (car extrèmement chronophage), elle devient envisageable à plusieurs (surtout si le groupe dépasse un certain seuil) car les tâches sont réparties.
-          Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie), le groupe est bien plus résilient, chacun prend soin des autres.
+          Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie, accident, mauvaise récolte, mauvais choix…), le groupe est bien plus résilient, chacun prend soin des autres.
         ]]
 
   section class: "section", ->
