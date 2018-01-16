@@ -2,7 +2,30 @@
 @import "node_modules/bulma/sass/utilities/initial-variables"
 @import "node_modules/bulma/sass/utilities/functions"
 
+$primary: #28b463;
 
 @import "node_modules/bulma/sass/utilities/derived-variables"
 
+$secondary: #2879b4;
+$secondary-invert: findColorInvert($secondary);
+
+$addColors: ( "secondary": ($secondary, $secondary-invert) );
+$colors: map-merge($colors, $addColors);
+
+$gap: 256px;
+
+$family-primary: Roboto, Sans-Serif, 14pt;
+
 @import "node_modules/bulma/bulma"
+
+.tile
+  border: 1px solid #DDD;
+  min-height: 7.5em;
+
+a.tile.column
+  display: block;
+
+.title
+  font-weight: normal;
+  font-family: Ubuntu, Sans-Serif;
+
