@@ -263,16 +263,17 @@ print page ->
 
   période d’essai (mdr de rire)
   nous donner votre fric (lol), présent et futur (ptdr)
-  proposez vos idées (projets personnels, comment on pourrait aider, tout ça => peu importe la complexité, on cherche à maxer le prestige)
+  proposez vos idées (projets personnels, comment on pourrait aider, tout ça => peu importe la complexité, on cherche à farmer le prestige)
 
   Être prêt à poser des briques à partir de ~mai 2020.
 
   ## personnes recherchées
 
   Pharmacien / médecin : parce qu'on pourrait se blesser ou être malade, et ne pas dépendre du village d'à côté où il n'y a personne c'est bien™
-  Chimiste : parce qu'on va faire des expériences et ce serait bien qu'on soit sûr de pas se faire exploser, et en apprendre plus
-  Physicien : pour le programme spacial
-  Biologiste : pour faire pousser des plantes trop choupies et totalement comestibles
+  Chimiste : pour tester la maison (vérifier les matériaux qu'on utilise, vérifier notre environnement pour éviter qu'on se chope un cancer), parce qu'on va faire des expériences et ce serait bien qu'on soit sûr de pas se faire exploser, et en apprendre plus
+  Physicien + astronome : pour le programme spacial, et farmer le prestige
+  Biologiste : pour faire pousser des plantes trop choupies et totalement comestibles (= sans cancer ni empoisonnements divers)
   Architecte : pour construire des maisons pas retard (passivité, confort)
+
 
 ]]
