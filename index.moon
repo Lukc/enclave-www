@@ -24,76 +24,83 @@ print page ->
 			div class: "container", ->
 				h1 class: "title is-1", "Projet Enclave (nom temporaire)"
 
-	section class: "section hero is-primary is-bold", ->
+				h2 class: "subtitle is-3", "Un projet de vie alternatif, écologique et raisonné."
+
+	section class: "section hero is-secondary is-bold", ->
 		div class: "container", ->
-			h4 class: "title is-1", "Le projet en bref"
+			p "FIXME: écolieu, urgh"
+			p "FIXME: collectiviste, mais faut pas utiliser des mots qui font peur"
+			p "FIXME: la technomagie sélebi1. (mais c’est mieux sans la magie)"
 
-			div class: "content", ->
-				p [[
-					Contrairement à d’autres projets éco-villages, nous acceptons parfaitement la technologie.
-					Le projet se veut écologique, parce que nous pensons cela nécessaire ; préserver la nature c’est préserver l’être humain.
-					L’enclave est un projet collectif: nous souhaitons mettre en place un système socialiste, l’argent est partagé et mis en commun.
-					Notre environnement devra être passif et autonome, afin de nous simplifier la vie (gain de temps, d’argent, d’énergie).
-				]]
-
-				p [[
-					Un de nos objectifs est de montrer qu’un autre mode de vie est possible, montrer un exemple de solution à nos différents problèmes de surpopulation dans les villes,
-					d’alimentation via la permaculture,
-					et de consommation et de récupération d’énergie…
-				]]
-
-				p [[
-					Pour finir, notre projet est fondamentalement démocratique.
-					L’ensemble des membres devront vivre ensemble, et prendre des décisions ensemble.
-					Les décisions porteront sur l’avenir du projet : les différents achats (matériels et matériaux), l’inclusion ou l’exlusion de membres, les projets collectifs nécessitant un investissement, la gestion financière du projet…
-				]]
-
-	section class: "section hero is-light", ->
-		div class: "container", ->
-			h4 class: "title is-1", "Pourquoi"
-
-			div class: "content", ->
-				p [[
-					Chaque personne a ses raisons propres de venir contribuer à notre projet.
-					En voici quelques-unes des différents fondateurs.
-				]]
-
-				p [[
-					Tout d’abord, nous partons d’une réflexion commune que le salariat ne nous satisfait pas.
-					Le travail tel que nous le connaissons engendre objectivement une certaine frustration (lorsque nous perdons du temps sur des activités inutiles), une fatigue morale (stress, anxiété) et physique (pour les travailleurs manuels principalement, mais aussi lorsque nous manquons d’activité sportive, rester assis toute la journée pose aussi des problèmes).
-				]]
-
-				p [[
-					Dans les fondateurs, nous avons des parents qui souhaitent voir leurs enfants grandir.
-					L’enclave est un projet qui leur donne un cadre leur permettant d’avoir du temps pour éduquer, enseigner et passer du temps avec leurs enfants.
-					L’éducation, aussi bien des enfants que des adultes, est un élément central au projet : vivre à plusieurs implique aussi avoir des cultures et des connaissances différentes, qui peuvent être partagées.
-					Nous sommes là pour apprendre, contribuer, partager.
-				]]
-
-				p [[
-					Nous pensons également que nous pouvons faire une meilleure société que ce qui nous est proposé actuellement.
-					L’adage "métro boulot dodo" est particulièrement vrai et aliénant dans notre monde, mais n’est pas une fatalité.
-					Une des idées principales du projet est que nous pouvons consacrer un peu de temps pour nous nourrir et cultiver notre nourriture : il nous faut un cadre le permettant, créons-le.
-					Cela nous permettra de manger plus sainement, d’avoir des activités variées, et du temps pour se cultiver.
-				]]
-
-				p [[
-					Pour certains, le projet permettra d’adopter un mode de vie un peu plus sain : dormir un peu plus ou au moins à des horaires fixes, et être plus productif.
-				]]
-
-				p [[
-					Le projet permet de contribuer à la création d’un monde meilleur, ce qui est une idée partagée par les fondateurs.
-					Nous souhaitons donner un exemple d’une vie différente, qui pourrait être adoptée par le plus grand nombre.
-				]]
-
-				p [[
-					Enfin, les fondateurs pensent qu’une démocratie est nécessaire.
-					En France, la démocratie est souvent mise de côté, les gens sont éloignés des décisions et ne peuvent que très brièvement participer : nous pouvons mieux faire.
-					Une idée que nous partagons est que la seule manière de se réapproprier la démocratie est que tout le monde prenne part à toutes les décisions du groupe.
-				]]
+--	section class: "section hero is-primary is-bold", ->
+--		div class: "container", ->
+--			h4 class: "title is-1", "Le projet en bref"
+--
+--			div class: "content", ->
+--				p [[
+--					Contrairement à d’autres projets éco-villages, nous acceptons parfaitement la technologie.
+--					Le projet se veut écologique, parce que nous pensons cela nécessaire ; préserver la nature c’est préserver l’être humain.
+--					L’enclave est un projet collectif: nous souhaitons mettre en place un système socialiste, l’argent est partagé et mis en commun.
+--					Notre environnement devra être passif et autonome, afin de nous simplifier la vie (gain de temps, d’argent, d’énergie).
+--				]]
+--
+--				p [[
+--					Un de nos objectifs est de montrer qu’un autre mode de vie est possible, montrer un exemple de solution à nos différents problèmes de surpopulation dans les villes, d’alimentation via la permaculture,
+--					et de consommation et de récupération d’énergie…
+--				]]
+--
+--				p [[
+--					Pour finir, notre projet est fondamentalement démocratique.
+--					L’ensemble des membres devront vivre ensemble, et prendre des décisions ensemble.
+--					Les décisions porteront sur l’avenir du projet : les différents achats (matériels et matériaux), l’inclusion ou l’exlusion de membres, les projets collectifs nécessitant un investissement, la gestion financière du projet…
+--				]]
+--
+--	section class: "section hero is-light", ->
+--		div class: "container", ->
+--			h4 class: "title is-1", "Pourquoi"
+--
+--			div class: "content", ->
+--				p [[
+--					Chaque personne a ses raisons propres de venir contribuer à notre projet.
+--					En voici quelques-unes des différents fondateurs.
+--				]]
+--
+--				p [[
+--					Tout d’abord, nous partons d’une réflexion commune que le salariat ne nous satisfait pas.
+--					Le travail tel que nous le connaissons engendre objectivement une certaine frustration (lorsque nous perdons du temps sur des activités inutiles), une fatigue morale (stress, anxiété) et physique (pour les travailleurs manuels principalement, mais aussi lorsque nous manquons d’activité sportive, rester assis toute la journée pose aussi des problèmes).
+--				]]
+--
+--				p [[
+--					Dans les fondateurs, nous avons des parents qui souhaitent voir leurs enfants grandir.
+--					L’enclave est un projet qui leur donne un cadre leur permettant d’avoir du temps pour éduquer, enseigner et passer du temps avec leurs enfants.
+--					L’éducation, aussi bien des enfants que des adultes, est un élément central au projet : vivre à plusieurs implique aussi avoir des cultures et des connaissances différentes, qui peuvent être partagées.
+--					Nous sommes là pour apprendre, contribuer, partager.
+--				]]
+--
+--				p [[
+--					Nous pensons également que nous pouvons faire une meilleure société que ce qui nous est proposé actuellement.
+--					L’adage "métro boulot dodo" est particulièrement vrai et aliénant dans notre monde, mais n’est pas une fatalité.
+--					Une des idées principales du projet est que nous pouvons consacrer un peu de temps pour nous nourrir et cultiver notre nourriture : il nous faut un cadre le permettant, créons-le.
+--					Cela nous permettra de manger plus sainement, d’avoir des activités variées, et du temps pour se cultiver.
+--				]]
+--
+--				p [[
+--					Pour certains, le projet permettra d’adopter un mode de vie un peu plus sain : dormir un peu plus ou au moins à des horaires fixes, et être plus productif.
+--				]]
+--
+--				p [[
+--					Le projet permet de contribuer à la création d’un monde meilleur, ce qui est une idée partagée par les fondateurs.
+--					Nous souhaitons donner un exemple d’une vie différente, qui pourrait être adoptée par le plus grand nombre.
+--				]]
+--
+--				p [[
+--					Enfin, les fondateurs pensent qu’une démocratie est nécessaire.
+--					En France, la démocratie est souvent mise de côté, les gens sont éloignés des décisions et ne peuvent que très brièvement participer : nous pouvons mieux faire.
+--					Une idée que nous partagons est que la seule manière de se réapproprier la démocratie est que tout le monde prenne part à toutes les décisions du groupe.
+--				]]
 
 	-- FIXME: add icons or something
-	section class: "section hero is-secondary", ->
+	section class: "section hero is-primary is-bold", ->
 		div class: "container", ->
 			div class: "columns is-multiline is-gapless has-text-centered", ->
 				a href: "#technologie", class: "tile column is-one-third", ->
@@ -112,86 +119,150 @@ print page ->
 	-- FIXME: Add illustrations on alternating sides, AND *THAT* IS AN ORIGINAL THOUGHT
 	section class: "section hero is-light", id: "technologie", ->
 		div class: "container", ->
-			h4 class: "title is-3", "Technologie"
+			div class: "content columns", ->
+				div class: "column is-3"
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Technologie"
 
-			div class: "content", ->
-				p [[
-					La technologie a pris une grande place dans notre quotidien.
-					Que ce soit pour communiquer, s’informer ou se divertir, nous utilisons de l’électronique.
-					Tout ceci est du confort auquel nous ne souhaitons pas renoncer.
-					Notre projet n’est pas de se séparer de tout ceci, mais uniquement de l’apprécier de manière responsable.
+					p [[
+						La technologie a pris une grande place dans notre quotidien.
+						Que ce soit pour communiquer, s’informer ou se divertir, nous utilisons de l’électronique.
+						Tout ceci est du confort auquel nous ne souhaitons pas renoncer.
+						Notre projet n’est pas de se séparer de tout ceci, mais uniquement de l’apprécier de manière responsable.
 
-					De plus nous pensons que la communication entre les personnes, telle que permise par Internet, est salutaire.
-					Ce serait une erreur de s’en priver.
-				]]
+						De plus nous pensons que la communication entre les personnes, telle que permise par Internet, est salutaire.
+						Ce serait une erreur de s’en priver.
+					]]
 
 	section class: "section hero", id: "ecologie", ->
 		div class: "container", ->
-			h4 class: "title is-3", "Écologie"
+			div class: "content columns", ->
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Écologie"
 
-			div class: "content", ->
-				p [[
-					L’écologie n’est qu’un moyen : protéger l’environnement c’est se protéger nous-mêmes.
-					Si notre environnement est menacé, notre nourriture l’est également, et donc par conséquent notre santé.
-				]]
+					p [[
+						L’écologie n’est qu’un moyen : protéger l’environnement c’est se protéger nous-mêmes.
+						Si notre environnement est menacé, notre nourriture l’est également, et donc par conséquent notre santé.
+					]]
+				div class: "column is-3"
 
 	section class: "section hero is-light", id: "autonomie", ->
 		div class: "container", ->
-			h4 class: "title is-3", "Autonomie"
+			div class: "content columns", ->
+				div class: "column is-3"
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Autonomie"
 
-			div class: "content", ->
-				p [[
-					L’autonomie (la vie en autarcie ou s’approchant) est un moyen pour ne plus être dépendant du système capitaliste pour les besoins vitaux (se nourrir, se loger).
-					Nous pensons que cela est nécessaire pour ne plus être contraint à vivre une vie de salariat, qui force les gens faire un travail aliénant.
-				]]
+					p [[
+						L’autonomie (la vie en autarcie ou s’approchant) est un moyen pour ne plus être dépendant du système capitaliste pour les besoins vitaux (se nourrir, se loger).
+						Nous pensons que cela est nécessaire pour ne plus être contraint à vivre une vie de salariat, qui force les gens faire un travail aliénant.
+					]]
 
-				p [[
-					Nous ne pensons cependant pas que l’argent est un problème en soit, et nous ne souhaitons pas vivre sans argent, mais nous n’en utiliserons pas entre nous.
-					De plus, malgré notre autonomie nous conserverons des interactions fortes avec le monde extérieur.
-				]]
+					p [[
+						Nous ne pensons cependant pas que l’argent est un problème en soit, et nous ne souhaitons pas vivre sans argent, mais nous n’en utiliserons pas entre nous.
+						De plus, malgré notre autonomie nous conserverons des interactions fortes avec le monde extérieur.
+					]]
 
 
 	section class: "section hero", id: "vie-en-communaute", ->
 		div class: "container", ->
-			h4 class: "title is-3", "Vie en communauté"
+			div class: "content columns", ->
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Vie en communauté"
 
-			div class: "content", ->
-				p [[
-					La vie en communauté a plusieurs avantages : réduire des coûts (chauffage, terrain, transports, …) et factoriser le travail (conception de l’habitat par exemple).
-					Là où la vie en autarcie serait très contraignante seul (car extrèmement chronophage), elle devient envisageable à plusieurs (surtout si le groupe dépasse un certain seuil) car les tâches sont réparties.
-					Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie), le groupe est bien plus résilient, chacun prend soin des autres.
-				]]
+					p [[
+						La vie en communauté a plusieurs avantages : réduire des coûts (chauffage, terrain, transports, …) et factoriser le travail (conception de l’habitat par exemple).
+						Là où la vie en autarcie serait très contraignante seul (car extrèmement chronophage), elle devient envisageable à plusieurs (surtout si le groupe dépasse un certain seuil) car les tâches sont réparties.
+						Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie), le groupe est bien plus résilient, chacun prend soin des autres.
+					]]
+				div class: "column is-3"
 
 	section class: "section hero is-light", id: "prestige", ->
 		div class: "container", ->
-			h4 class: "title is-3", "Prestige"
+			div class: "content columns", ->
+				div class: "column is-3"
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Prestige"
 
-			div class: "content", ->
-
-				p [[
-					Notre démarche a pour objectif de montrer un exemple.
-					Nous souhaions créer un lieu agréable à vivre, présentable au plus grand nombre comme une alternative crédible à nos sociétés.
+					p [[
+						Notre démarche a pour objectif de montrer un exemple.
+						Nous souhaions créer un lieu agréable à vivre, présentable au plus grand nombre comme une alternative crédible à nos sociétés.
 					]]
 
 	section class: "section hero", id: "democratie", ->
 		div class: "container", ->
-			h4 class: "title is-3", "Démocratie"
+			div class: "content columns", ->
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Démocratie"
 
-			div class: "content", ->
-
-				p [[
-					La démocratie est un mode de prise de décision prenant en compte les intérêts de chacun.
-					Cela respecte les individus, leurs avis et points de vue, avec un rapport de force d’égal-à-égal.
-					De plus, la démocratie permet de faire connaître l’avis de chacun, basé sur des connaissances ou des cultures différentes.
-					Pour toutes ces raisons, nous pensons que la démocratie est nécessaire au cœur du projet.
-				]]
+					p [[
+						La démocratie est un mode de prise de décision prenant en compte les intérêts de chacun.
+						Cela respecte les individus, leurs avis et points de vue, avec un rapport de force d’égal-à-égal.
+						De plus, la démocratie permet de faire connaître l’avis de chacun, basé sur des connaissances ou des cultures différentes.
+						Pour toutes ces raisons, nous pensons que la démocratie est nécessaire au cœur du projet.
+					]]
+				div class: "column is-3"
 
 	section class: "section hero is-primary", ->
 		div class: "container", ->
-			h2 class: "title is-1", "Pourquoi une Commune ?"
+			h2 class: "title is-1", ->
+				raw "Une Commune pour le XXI<exp>e</exp> siècle"
 			p ""
 			p ""
 			p ""
+
+	section class: "section hero is-light", ->
+		div class: "container", ->
+			h2 class: "title is-1", "Une gestion commune des ressources"
+			div class: "columns", ->
+				div class: "column is-6", ->
+					h3 class: "title is-3", "Habitatiton"
+				div class: "column is-6", ->
+					h3 class: "title is-3", "Eau"
+			div class: "columns", ->
+				div class: "column is-6", ->
+					h3 class: "title is-3", "Énergie"
+				div class: "column is-6", ->
+					h3 class: "title is-3", "Alimentation"
+			div class: "columns", ->
+				div class: "column is-6", ->
+					h3 class: "title is-3", "Température"
+				div class: "column is-6", ->
+					h3 class: "title is-3", "Finances"
+
+	section class: "section hero is-white", ->
+		div class: "container", ->
+			h2 class: "title is-1", "Gouvernance"
+			h3 class: "subtitle is-3", "Démocratie directe et à petite échelle"
+
+	section class: "section hero is-light", ->
+		div class: "container", ->
+			div class: "timeline", ->
+				div class: "timeline-header", ->
+					div class: "tag is-medium is-secondary", "le début lol"
+				div class: "timeline-item", ->
+					div class: "timeline-marker", ->
+					div class: "timeline-content", ->
+						p "ALLO"
+				div class: "timeline-header", ->
+					div class: "tag is-medium is-secondary", "on est un team"
+				div class: "timeline-item", ->
+					div class: "timeline-marker", ->
+					div class: "timeline-content", ->
+						p "ALLO"
+				div class: "timeline-header", ->
+					div class: "tag is-medium is-secondary", "construir mdr"
+				div class: "timeline-item", ->
+					div class: "timeline-marker", ->
+					div class: "timeline-content", ->
+						p "ALLO"
+				div class: "timeline-header", ->
+					div class: "tag is-medium is-secondary", "Qapla'"
+
+	section class: "section hero is-primary", ->
+		div class: "container", ->
+			h2 class: "title is-1", "Rejoindre le projet"
+			p "FIXME: conditions pour rejoindre, période d’essai, modèle de vote"
 
 	footer class: "footer", ->
 
