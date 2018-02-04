@@ -106,52 +106,20 @@ print page ->
 	section class: "section hero is-primary is-bold", ->
 		div class: "container", ->
 			div class: "columns is-multiline is-gapless has-text-centered", ->
-				a href: "#technologie", class: "tile column is-one-third", ->
-					div class: "title is-4", "Technologie"
-				a href: "#ecologie", class: "tile column is-one-third", ->
-					div class: "title is-4", "Écologie"
 				a href: "#autonomie", class: "tile column is-one-third", ->
 					div class: "title is-4", "Autonomie"
 				a href: "#vie-en-communaute", class: "tile column is-one-third", ->
 					div class: "title is-4", "Vie en communauté"
+				a href: "#ecologie", class: "tile column is-one-third", ->
+					div class: "title is-4", "Démocratie"
+				a href: "#technologie", class: "tile column is-one-third", ->
+					div class: "title is-4", "Écologie"
+				a href: "#democratie", class: "tile column is-one-third", ->
+					div class: "title is-4", "Technologie"
 				a href: "#prestige", class: "tile column is-one-third", ->
 					div class: "title is-4", "Prestige"
-				a href: "#democratie", class: "tile column is-one-third", ->
-					div class: "title is-4", "Démocratie"
 
 	-- FIXME: Add illustrations on alternating sides, AND *THAT* IS AN ORIGINAL THOUGHT
-	section class: "section hero is-light", id: "technologie", ->
-		div class: "container", ->
-			div class: "content columns", ->
-				div class: "column is-3"
-				div class: "column is-9", ->
-					h4 class: "title is-3", "Technologie"
-					p [[
-						La technologie a pris une grande place dans notre quotidien.
-						Que ce soit pour communiquer, s’informer ou se divertir, nous utilisons de l’électronique.
-						Tout ceci est du confort auquel nous ne souhaitons pas renoncer.
-						Notre projet n’est pas de se séparer de tout ceci, mais uniquement de l’apprécier de manière responsable.
-					]]
-
-					p [[
-						De plus nous pensons que la communication entre les personnes, telle que permise par Internet, est salutaire.
-						Ce serait une erreur de s'en priver : communiquer sur ce que l'on fait, nos réussites et nos échecs, et même simplement notre quotidien est important.
-						Il faut montrer aux gens qu'une alternative est possible.
-					]]
-
-	section class: "section hero", id: "ecologie", ->
-		div class: "container", ->
-			div class: "content columns", ->
-				div class: "column is-9", ->
-					h4 class: "title is-3", "Écologie"
-
-					p [[
-						L’écologie n’est qu’un moyen : protéger l’environnement c’est se protéger nous-mêmes.
-						Si notre environnement est menacé, notre nourriture l'est également, et donc par conséquent notre santé, notre mode de vie, notre avenir en tant qu’espèce.
-						Notre mode de vie, plus simple, permet de réduire drastiquement notre empreinte et se place dans la mouvance de décroissance.
-					]]
-				div class: "column is-3"
-
 	section class: "section hero is-light", id: "autonomie", ->
 		div class: "container", ->
 			div class: "content columns", ->
@@ -183,21 +151,10 @@ print page ->
 					]]
 				div class: "column is-3"
 
-	section class: "section hero is-light", id: "prestige", ->
-		div class: "container", ->
-			div class: "content columns", ->
-				div class: "column is-3"
-				div class: "column is-9", ->
-					h4 class: "title is-3", "Prestige"
-
-					p [[
-						Notre démarche a pour objectif de montrer un exemple.
-						Nous souhaions créer un lieu agréable à vivre, présentable au plus grand nombre comme une alternative crédible à nos sociétés.
-					]]
-
 	section class: "section hero", id: "democratie", ->
 		div class: "container", ->
 			div class: "content columns", ->
+				div class: "column is-3"
 				div class: "column is-9", ->
 					h4 class: "title is-3", "Démocratie"
 
@@ -206,6 +163,49 @@ print page ->
 						Cela respecte les individus, leurs avis et points de vue, avec un rapport de force d’égal-à-égal.
 						De plus, la démocratie permet de faire connaître l’avis de chacun, basé sur des connaissances ou des cultures différentes.
 						Pour toutes ces raisons, nous pensons que la démocratie est nécessaire au cœur du projet.
+					]]
+
+	section class: "section hero", id: "ecologie", ->
+		div class: "container", ->
+			div class: "content columns", ->
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Écologie"
+
+					p [[
+						L’écologie n’est qu’un moyen : protéger l’environnement c’est se protéger nous-mêmes.
+						Si notre environnement est menacé, notre nourriture l'est également, et donc par conséquent notre santé, notre mode de vie, notre avenir en tant qu’espèce.
+						Notre mode de vie, plus simple, permet de réduire drastiquement notre empreinte et se place dans la mouvance de décroissance.
+					]]
+				div class: "column is-3"
+
+	section class: "section hero is-light", id: "technologie", ->
+		div class: "container", ->
+			div class: "content columns", ->
+				div class: "column is-3"
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Technologie"
+					p [[
+						La technologie a pris une grande place dans notre quotidien.
+						Que ce soit pour communiquer, s’informer ou se divertir, nous utilisons de l’électronique.
+						Tout ceci est du confort auquel nous ne souhaitons pas renoncer.
+						Notre projet n’est pas de se séparer de tout ceci, mais uniquement de l’apprécier de manière responsable.
+					]]
+
+					p [[
+						De plus nous pensons que la communication entre les personnes, telle que permise par Internet, est salutaire.
+						Ce serait une erreur de s'en priver : communiquer sur ce que l'on fait, nos réussites et nos échecs, et même simplement notre quotidien est important.
+						Il faut montrer aux gens qu'une alternative est possible.
+					]]
+
+	section class: "section hero is-light", id: "prestige", ->
+		div class: "container", ->
+			div class: "content columns", ->
+				div class: "column is-9", ->
+					h4 class: "title is-3", "Prestige"
+
+					p [[
+						Notre démarche a pour objectif de montrer un exemple.
+						Nous souhaions créer un lieu agréable à vivre, présentable au plus grand nombre comme une alternative crédible à nos sociétés.
 					]]
 				div class: "column is-3"
 
