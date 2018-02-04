@@ -28,7 +28,7 @@ print page ->
 
 				h2 class: "subtitle is-3", "Un projet de vie alternatif, écologique et raisonné."
 
-	section class: "section hero is-secondary is-bold", ->
+	section class: "section hero is-secondary", ->
 		div class: "container hero-body content", ->
 			p class: "subtitle is-5", [[
 				L’Enclave est un projet de cohabitation responsable à l’échelle d’un hameau.
@@ -103,7 +103,7 @@ print page ->
 --				]]
 
 	-- FIXME: add icons or something
-	section class: "section hero is-primary is-bold", ->
+	section class: "section hero is-primary", ->
 		div class: "container", ->
 			div class: "columns is-multiline is-gapless has-text-centered", ->
 				a href: "#autonomie", class: "tile column is-one-third", ->
@@ -151,7 +151,7 @@ print page ->
 					]]
 				div class: "column is-3"
 
-	section class: "section hero", id: "democratie", ->
+	section class: "section hero is-light", id: "democratie", ->
 		div class: "container", ->
 			div class: "content columns", ->
 				div class: "column is-3"
@@ -197,7 +197,7 @@ print page ->
 						Il faut montrer aux gens qu'une alternative est possible.
 					]]
 
-	section class: "section hero is-light", id: "prestige", ->
+	section class: "section hero", id: "prestige", ->
 		div class: "container", ->
 			div class: "content columns", ->
 				div class: "column is-9", ->
