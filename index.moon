@@ -213,9 +213,18 @@ print page ->
 		div class: "container", ->
 			h2 class: "title is-1", ->
 				raw "Une Commune pour le XXI<sup>e</sup> siècle"
-			p class: "tag is-danger is-large", "FIXME: mettre en commun pour avoir plus"
-			p class: "tag is-danger is-large", "FIXME: plus loin que beaucoup de communes, parce que cohabitation"
-			p class: "tag is-danger is-large", "FIXME: cohabitation + auto-construction = nouvelles opportunités"
+
+			-- FIXME: Illustration ?
+
+			div class: "content", ->
+				p [[
+					La mise en commun de nos ressources est un moyen de s’enrichir : nos moyens matériels sont plus grands, nous profitons de l’expérience de nos pairs, nous pouvons travailler à des projets de groupe.
+				]]
+
+				p [[
+					La cohabitation est l’application de ce postulat à un stade plus avancé, et nous voulons auto-construire une habitation unique.
+					Construire un bâtiment unique nous offre de nouvelles options architecturales et nous permet de mieux appliquer les méthodes d’économie d’énergie.
+				]]
 
 	section class: "section hero is-light", ->
 		div class: "container", ->
@@ -225,21 +234,24 @@ print page ->
 					h3 class: "title is-3", "Énergie"
 					div class: "content", ->
 						ul ->
-							li " le Soleil et le vent"
-							li " bois (backup)"
-							li " biomasse"
-							li " pas konsomer (kom 1 retard)"
+							li "Solaire (concentrateur + Stirling)"
+							li "Éolienne"
+							li "Bois (appoint)"
+							li "Économies thermiques"
 				div class: "column is-6", ->
 					h3 class: "title is-3", "Alimentation"
-					ul ->
-						li " permaculture, duh"
-						li " p’tet d’autres choses dans l’futur, duh (hydroponie, aquaponie, aéroponie, n-dimensional-ponie)"
+					div class: "content", ->
+						ul ->
+							li "Permaculture"
+							li "Aquaculture"
 			div class: "columns", ->
 				div class: "column is-6", ->
 					h3 class: "title is-3", "Eau"
 					div class: "content", ->
 						ul ->
-							li "sources : rivières / puits / pluie"
+							li "Puits"
+							li "Traitement des eaux de pluie"
+							li "Citernes de stockage"
 				div class: "column is-6", ->
 					h3 class: "title is-3", "Finances"
 					div class: "content", ->
@@ -258,11 +270,11 @@ print page ->
 					h3 class: "title is-3", "Température"
 					div class: "content", ->
 						ul ->
-							li " le soleil est notre ami"
-							li " mais le bois aussi (mais quand même un peu moins)"
-							li " et les serveurs aussi (comme nous ils ont une âme)"
-
-							li " le sol aussi, mais que quand le soleil nous aime plus"
+							li "Chauffage solaire passif"
+							li "Capter la température des machines"
+							li "Appoint (bois)"
+						ul ->
+							li "Rafraichissement (murs, aération)"
 				div class: "column is-6", ->
 					h3 class: "title is-3", "Déchets"
 					div class: "content", ->
