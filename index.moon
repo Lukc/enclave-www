@@ -22,9 +22,10 @@ print page ->
 	header class: "header", ->
 		div class: "hero-body", ->
 			div class: "container", ->
-				p class: "tag is-danger is-large", "FIXME: main menu or smthing"
 				h1 class: "title is-1", ->
-					raw "Projet Enclave <sup>(nom temporaire)</sup>"
+					raw "Projet Enclave <sup>"
+					span class: "tag is-danger is-large", "(nom temporaire)"
+					raw "</sup>"
 
 				h2 class: "subtitle is-3", "Un projet de vie alternatif, écologique et raisonné."
 
@@ -284,7 +285,7 @@ print page ->
 			h2 class: "title is-1", "Un projet dans le temps"
 			div class: "timeline", ->
 				div class: "timeline-header", ->
-					div class: "tag is-medium is-secondary", "Prospection"
+					div class: "tag is-medium is-primary", "Prospection"
 				div class: "timeline-item", ->
 					div class: "timeline-marker", ->
 					div class: "timeline-content", ->
@@ -298,21 +299,21 @@ print page ->
 						p class: "heading", "Juillet 2018"
 						p "Parcourir le pays pour trouver un terrain adapté."
 				div class: "timeline-header", ->
-					div class: "tag is-medium is-secondary", "Préparation"
+					div class: "tag is-medium is-primary", "Préparation"
 				div class: "timeline-item", ->
 					div class: "timeline-marker", ->
 					div class: "timeline-content", ->
 						p class: "heading", "Mars 2019"
 						p "Obtention d’un terrain constructible."
 				div class: "timeline-header", ->
-					div class: "tag is-medium is-secondary", "Construction"
+					div class: "tag is-medium is-primary", "Construction"
 				div class: "timeline-item", ->
 					div class: "timeline-marker", ->
 					div class: "timeline-content", ->
 						p class: "heading", "Mars 2020"
 						p "Auto-construction du bâtiment principal du projet."
 				div class: "timeline-header", ->
-					div class: "tag is-medium is-secondary", "Expansion"
+					div class: "tag is-medium is-primary", "Expansion"
 				div class: "timeline-item", ->
 					div class: "timeline-marker", ->
 					div class: "timeline-content", ->
@@ -333,12 +334,10 @@ print page ->
 					Les membres actuels doivent alors valider à l’unanimité l’intégration d’une nouvelle personne dans le projet.
 				]]
 				p [[
-					Pendant les 6 mois de la période d’essai, des activités sociales ou des travaux sur l’Enclave seront prévus, pour prendre l’habitude de travailler ou de vivre ensembles.
+					Pendant les 6 mois de la période d’essai, des activités sociales ou des travaux sur l’Enclave seront prévus, pour prendre l’habitude de travailler ou de vivre ensemble.
 				]]
 				p class: "tag is-danger is-large", "FIXME: Où envoyer les candidatures."
-				p [[
-					Lorsque envoyez votre candidature, mentionnez quels sont vos espoirs pour le projet et vos idées le concernant.
-				]]
+				p class: "tag is-danger is-large", "FIXME: Proposer ses idées, parce que. \\o/"
 
 	footer class: "footer", ->
 		div class: "container", ->
