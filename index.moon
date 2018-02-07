@@ -71,13 +71,9 @@ print page ->
 					h4 class: "title is-3", "Autonomie"
 
 					p [[
-						L’autonomie (la vie en autarcie ou s’approchant) est un moyen pour ne plus être dépendant du système capitaliste pour les besoins vitaux (se nourrir, se loger).
-						Nous pensons que cela est nécessaire pour ne plus être contraint à vivre une vie de salariat, qui force les gens faire un travail aliénant.
-					]]
-
-					p [[
-						Nous ne pensons cependant pas que l’argent est un problème en soit, et nous ne souhaitons pas vivre sans argent, mais nous n’en utiliserons pas entre nous.
-						De plus, malgré notre autonomie nous conserverons des interactions fortes avec le monde extérieur.
+					    Nous subvenons à nos besoins grâce au fruit de notre travail et à des échanges réfléchis (nous choisissons nos dépendances).
+					    L'autonomie nous rend responsable de notre consommation, qui ne dépendra pas de l'exploitation d'autrui.
+					    Nous assurerons notre autonomie grâce à un contrôle des moyens de production (énergie, nourriture, eau, etc.).
 					]]
 
 
@@ -144,12 +140,17 @@ print page ->
 		div class: "container", ->
 			div class: "content columns", ->
 				div class: "column is-9", ->
-					h4 class: "title is-3", "Prestige"
+					h4 class: "title is-3", "Contribuer au mouvement"
 
 					p [[
-						Notre démarche a pour objectif de montrer un exemple.
-						Nous souhaions créer un lieu agréable à vivre, présentable au plus grand nombre comme une alternative crédible à nos sociétés.
+						Notre démarche a pour objectif de montrer un exemple accessible à tous.
+						Nous souhaitons créer un lieu agréable à vivre, présentable au plus grand nombre comme une alternative crédible à nos sociétés.
 					]]
+
+					p [[
+						D'autres projets de ce genre existent, et nous souhaitons nous fédérer. 
+					]]
+
 				div class: "column is-3"
 
 	section class: "section hero is-primary", ->
