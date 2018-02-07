@@ -52,6 +52,15 @@ print page ->
 					div class: "title is-4", "Technologie"
 				a href: "#prestige", class: "tile column is-one-third", ->
 					div class: "title is-4", "Prestige"
+			div class: "columns is-multiline is-gapless has-text-centered", ->
+				a class: "tile column is-half", ->
+					div class: "title is-4", "Économie"
+				a class: "tile column is-half", ->
+					div class: "title is-4", "Gouvernance"
+				a class: "tile column is-half", ->
+					div class: "title is-4", "Timeline"
+				a class: "tile column is-half", ->
+					div class: "title is-4", "Recrutement"
 
 	-- FIXME: Add illustrations on alternating sides, AND *THAT* IS AN ORIGINAL THOUGHT
 	section class: "section hero is-light", id: "autonomie", ->
@@ -161,65 +170,16 @@ print page ->
 				]]
 
 	section class: "section hero is-light", ->
-		div class: "container", ->
-			h2 class: "title is-1", "Une gestion collective des ressources"
-			div class: "columns", ->
-				div class: "column is-6", ->
-					h3 class: "title is-3", "Énergie"
-					div class: "content", ->
-						ul ->
-							li "Solaire (concentrateur + Stirling)"
-							li "Éolienne"
-							li "Bois (appoint)"
-							li "Économies thermiques"
-				div class: "column is-6", ->
-					h3 class: "title is-3", "Alimentation"
-					div class: "content", ->
-						ul ->
-							li "Permaculture"
-							li "Aquaculture"
-			div class: "columns", ->
-				div class: "column is-6", ->
-					h3 class: "title is-3", "Eau"
-					div class: "content", ->
-						ul ->
-							li "Puits"
-							li "Traitement des eaux de pluie"
-							li "Citernes de stockage"
-				div class: "column is-6", ->
-					h3 class: "title is-3", "Finances"
-					div class: "content", ->
-						ul ->
-							li " l’argent c’est une ressource commune"
-							li " maxer farmer l'argent à plusieurs c facile (ex: investissements comme l'achat de bâtiments ou d'appartements à louer, décidé collectivement)"
-							li " acheter du matériel (serveurs, outils, véhicule, …) et des matériaux (si on ne trouve pas en recyclage)"
-							li " impôts/taxes"
+		div class: "container", id: "economie", ->
+			h2 class: "title is-1", "Économie"
 
-					p [[
-						Nous ne pensons cependant pas que l’argent est un problème en soit, et nous ne souhaitons pas vivre sans argent, mais nous n’en utiliserons pas entre nous.
-						De plus, malgré notre autonomie nous conserverons des interactions fortes avec le monde extérieur.
-					]]
-			div class: "columns", ->
-				div class: "column is-6", ->
-					h3 class: "title is-3", "Température"
-					div class: "content", ->
-						ul ->
-							li "Chauffage solaire passif"
-							li "Capter la température des machines"
-							li "Appoint (bois)"
-						ul ->
-							li "Rafraichissement (murs, aération)"
-				div class: "column is-6", ->
-					h3 class: "title is-3", "Déchets"
-					div class: "content", ->
-						ul ->
-							li "recyclage"
-							li "recycler = plastiques, métaux, verre, bois en grosses quantités"
-							li "nettoyer l’eau parce qu’on est des gens propres qui salissons pas l’eau d’Earth-chan"
-
+			h3 class: "title is-3", "Un revenu universel pour tous"
+			h3 class: "title is-3", "Des finances partagées"
+			h3 class: "title is-3", "Des priorités écologiques et sociales"
+			h3 class: "title is-3", "Échanges locaux et solidaires"
 
 	section class: "section hero is-white", ->
-		div class: "container", ->
+		div class: "container", id: "gouvernance", ->
 			h2 class: "title is-1", "Gouvernance"
 			h3 class: "subtitle is-3", "Démocratie directe et à petite échelle"
 			div class: "content", ->
