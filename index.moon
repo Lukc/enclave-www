@@ -85,7 +85,7 @@ print page ->
 
 					p [[
 						La vie en communauté a plusieurs avantages : réduire des coûts (chauffage, terrain, transports, …) et factoriser le travail (conception de l’habitat par exemple).
-						Là où la vie en autarcie serait très contraignante seul (car extrèmement chronophage), elle devient envisageable à plusieurs (surtout si le groupe dépasse un certain seuil) car les tâches sont réparties.
+						Là où la vie en autarcie serait très contraignante seul (car extrêmement chronophage), elle devient envisageable à plusieurs (surtout si le groupe dépasse un certain seuil) car les tâches sont réparties.
 						Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie, accident, mauvaise récolte, mauvais choix…), le groupe est bien plus résilient, chacun prend soin des autres.
 					]]
 				div class: "column is-3"
@@ -99,7 +99,7 @@ print page ->
 
 					p [[
 						La démocratie est un mode de prise de décision prenant en compte les intérêts de chacun.
-						Cela respecte les individus, leurs avis et points de vue, avec un rapport de force d’égal-à-égal.
+						Cela respecte les individus, leurs avis et points de vue, avec un rapport de force d’égal à égal.
 						De plus, la démocratie permet de faire connaître l’avis de chacun, basé sur des connaissances ou des cultures différentes.
 						Pour toutes ces raisons, nous pensons que la démocratie est nécessaire au cœur du projet.
 					]]
@@ -175,9 +175,46 @@ print page ->
 			h2 class: "title is-1", "Économie"
 
 			h3 class: "title is-3", "Un revenu universel pour tous"
+
+			p [[
+				L'idée est de fournir de quoi se nourrir, se loger, se chauffer et un peu d'énergie.
+				On demande uniquement aux gens de travailler pour arriver à ce résultat, le temps restant étant libéré pour le développement de projets personnels (ou collectifs si le cœur vous en dit).
+			]]
+
 			h3 class: "title is-3", "Des finances partagées"
+
+			p [[
+				Le projet aura des finances collectives.
+				L'idée principale est que les membres apportent de l'argent pour démarrer le projet (somme individuelle à définir, autour de 10 000 à 20 000 €) et si possible du récurrent.
+				Le surplus pourra être investi (choix d'investissements à définir collectivement une fois les sommes disponibles connues).
+			]]
+
+			p [[
+				La priorité étant la pérennité du projet, nos ressources financières seront utilisées pour la survie et le confort minimal des personnes (du chauffage et un peu d'énergie).
+				Seront donc prioritaires les achats de nourriture, d'énergie, de matériaux et de matériels pour l'habitat collectif.
+			]]
+
+			p [[
+				Le reste du financement sera soumis à des décisions collectives.
+				Cela servira pour des projets en rapport avec la médecine, ainsi que des projets expérimentaux divers qui seront probablement tournés vers la collecte d'énergie (ou autre projet apportant du confort aux habitants).
+				Pour la médecine par exemple, nous pouvons acheter du matériel pour extraire facilement des huiles essentielles de plantes pour guérir des maux connus.
+				Pour la collecte d'énergie, nous pouvons acheter du matériel pour produire des pales d'éoliennes ou un chauffe-eau solaire.
+				Le divertissement est également de la partie avec l'achat d'instruments de musique par exemple.
+			]]
+
 			h3 class: "title is-3", "Des priorités écologiques et sociales"
+
+			p [[
+				Les projets de l'enclave auront pour but le développement de l'individu ou de la communauté, sans impératif économique ou de rentabilité financière.
+				De plus, les conditions de réalisation des projets et les implications sur l'environnement local ou distant seront des facteurs pris en compte.
+			]]
+
 			h3 class: "title is-3", "Échanges locaux et solidaires"
+
+			p [[
+				Nous sommes ouverts et nous souhaitons échanger au maximum avec les acteurs de l'économie locale afin d'avoir une communauté plus résiliente.
+			]]
+
 
 	section class: "section hero is-white", ->
 		div class: "container", id: "gouvernance", ->
