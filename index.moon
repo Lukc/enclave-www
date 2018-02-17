@@ -19,17 +19,14 @@ page = (f) ->
 				raw render_html f
 
 print page ->
-	header class: "header", ->
+	header class: "section hero is-light is-small", ->
 		div class: "hero-body", ->
 			div class: "container", ->
-				h1 class: "title is-1", ->
-					raw "Projet Enclave <sup>"
-					span class: "tag is-danger is-large", "(nom temporaire)"
-					raw "</sup>"
+				h1 class: "title is-1", "Projet Enclave"
 
 				h2 class: "subtitle is-3", "Un projet de vie alternatif, écologique et raisonné."
 
-	section class: "section hero is-secondary", ->
+	section class: "section hero is-white", ->
 		div class: "container hero-body content", ->
 			p class: "subtitle is-5", [[
 				L’Enclave est un projet de cohabitation responsable à l’échelle d’un hameau.
@@ -53,13 +50,13 @@ print page ->
 				a href: "#prestige", class: "tile column is-one-third", ->
 					div class: "title is-4", "Prestige"
 			div class: "columns is-multiline is-gapless has-text-centered", ->
-				a class: "tile column is-half", ->
+				a href: "#economie", class: "tile column is-half", ->
 					div class: "title is-4", "Économie"
-				a class: "tile column is-half", ->
+				a href: "#gouvernance", class: "tile column is-half", ->
 					div class: "title is-4", "Gouvernance"
-				a class: "tile column is-half", ->
+				a href: "#timeline", class: "tile column is-half", ->
 					div class: "title is-4", "Timeline"
-				a class: "tile column is-half", ->
+				a href: "#recrutement", class: "tile column is-half", ->
 					div class: "title is-4", "Recrutement"
 
 	-- FIXME: Add illustrations on alternating sides, AND *THAT* IS AN ORIGINAL THOUGHT
@@ -170,54 +167,55 @@ print page ->
 					Construire un bâtiment unique nous offre de nouvelles options architecturales et nous permet de mieux appliquer les méthodes d’économie d’énergie.
 				]]
 
-	section class: "section hero is-light", ->
-		div class: "container", id: "economie", ->
+	section class: "section hero is-light", id: "economie", ->
+		div class: "container", ->
 			h2 class: "title is-1", "Économie"
 
-			h3 class: "title is-3", "Un revenu universel pour tous"
+			div class: "content", ->
+				h3 class: "title is-3", "Un revenu universel pour tous"
 
-			p [[
-				L'idée est de fournir de quoi se nourrir, se loger, se chauffer et un peu d'énergie.
-				On demande uniquement aux gens de travailler pour arriver à ce résultat, le temps restant étant libéré pour le développement de projets personnels (ou collectifs si le cœur vous en dit).
-			]]
+				p [[
+					L'idée est de fournir de quoi se nourrir, se loger, se chauffer et un peu d'énergie.
+					On demande uniquement aux gens de travailler pour arriver à ce résultat, le temps restant étant libéré pour le développement de projets personnels (ou collectifs si le cœur vous en dit).
+				]]
 
-			h3 class: "title is-3", "Des finances partagées"
+				h3 class: "title is-3", "Des finances partagées"
 
-			p [[
-				Le projet aura des finances collectives.
-				L'idée principale est que les membres apportent de l'argent pour démarrer le projet (somme individuelle à définir, autour de 10 000 à 20 000 €) et si possible du récurrent.
-				Le surplus pourra être investi (choix d'investissements à définir collectivement une fois les sommes disponibles connues).
-			]]
+				p [[
+					Le projet aura des finances collectives.
+					L'idée principale est que les membres apportent de l'argent pour démarrer le projet (somme individuelle à définir, autour de 10 000 à 20 000 €) et si possible du récurrent.
+					Le surplus pourra être investi (choix d'investissements à définir collectivement une fois les sommes disponibles connues).
+				]]
 
-			p [[
-				La priorité étant la pérennité du projet, nos ressources financières seront utilisées pour la survie et le confort minimal des personnes (du chauffage et un peu d'énergie).
-				Seront donc prioritaires les achats de nourriture, d'énergie, de matériaux et de matériels pour l'habitat collectif.
-			]]
+				p [[
+					La priorité étant la pérennité du projet, nos ressources financières seront utilisées pour la survie et le confort minimal des personnes (du chauffage et un peu d'énergie).
+					Seront donc prioritaires les achats de nourriture, d'énergie, de matériaux et de matériels pour l'habitat collectif.
+				]]
 
-			p [[
-				Le reste du financement sera soumis à des décisions collectives.
-				Cela servira pour des projets en rapport avec la médecine, ainsi que des projets expérimentaux divers qui seront probablement tournés vers la collecte d'énergie (ou autre projet apportant du confort aux habitants).
-				Pour la médecine par exemple, nous pouvons acheter du matériel pour extraire facilement des huiles essentielles de plantes pour guérir des maux connus.
-				Pour la collecte d'énergie, nous pouvons acheter du matériel pour produire des pales d'éoliennes ou un chauffe-eau solaire.
-				Le divertissement est également de la partie avec l'achat d'instruments de musique par exemple.
-			]]
+				p [[
+					Le reste du financement sera soumis à des décisions collectives.
+					Cela servira pour des projets en rapport avec la médecine, ainsi que des projets expérimentaux divers qui seront probablement tournés vers la collecte d'énergie (ou autre projet apportant du confort aux habitants).
+					Pour la médecine par exemple, nous pouvons acheter du matériel pour extraire facilement des huiles essentielles de plantes pour guérir des maux connus.
+					Pour la collecte d'énergie, nous pouvons acheter du matériel pour produire des pales d'éoliennes ou un chauffe-eau solaire.
+					Le divertissement est également de la partie avec l'achat d'instruments de musique par exemple.
+				]]
 
-			h3 class: "title is-3", "Des priorités écologiques et sociales"
+				h3 class: "title is-3", "Des priorités écologiques et sociales"
 
-			p [[
-				Les projets de l'enclave auront pour but le développement de l'individu ou de la communauté, sans impératif économique ou de rentabilité financière.
-				De plus, les conditions de réalisation des projets et les implications sur l'environnement local ou distant seront des facteurs pris en compte.
-			]]
+				p [[
+					Les projets de l'enclave auront pour but le développement de l'individu ou de la communauté, sans impératif économique ou de rentabilité financière.
+					De plus, les conditions de réalisation des projets et les implications sur l'environnement local ou distant seront des facteurs pris en compte.
+				]]
 
-			h3 class: "title is-3", "Échanges locaux et solidaires"
+				h3 class: "title is-3", "Échanges locaux et solidaires"
 
-			p [[
-				Nous sommes ouverts et nous souhaitons échanger au maximum avec les acteurs de l'économie locale afin d'avoir une communauté plus résiliente.
-			]]
+				p [[
+					Nous sommes ouverts et nous souhaitons échanger au maximum avec les acteurs de l'économie locale afin d'avoir une communauté plus résiliente.
+				]]
 
 
-	section class: "section hero is-white", ->
-		div class: "container", id: "gouvernance", ->
+	section class: "section hero is-white", id: "gouvernance", ->
+		div class: "container", ->
 			h2 class: "title is-1", "Gouvernance"
 			h3 class: "subtitle is-3", "Démocratie directe et à petite échelle"
 			div class: "content", ->
@@ -228,7 +226,7 @@ print page ->
 						p class: "tag is-danger is-large", "FIXME: Exceptions?"
 					li "les ressources mises en commun ne doivent pas être volées aux individus"
 
-	section class: "section hero is-light", ->
+	section class: "section hero is-light", id: "timeline", ->
 		div class: "container", ->
 			h2 class: "title is-1", "Un projet dans le temps"
 			div class: "timeline", ->
@@ -273,7 +271,7 @@ print page ->
 						p class: "heading", "Le futur et au delà"
 						p "Développer de nouveaux outils écologiques pour produire de l’énergie, de la nourriture, etc."
 
-	section class: "section hero is-primary", ->
+	section class: "section hero is-primary", id: "recrutement", ->
 		div class: "container", ->
 			h2 class: "title is-1", "Rejoindre le projet"
 			div class: "content", ->
@@ -290,5 +288,6 @@ print page ->
 	footer class: "footer", ->
 		div class: "container", ->
 			p class: "tag is-danger is-large", "FIXME: Mentions légales."
-			p class: "tag is-danger is-large", "FIXME: Droits sur la page du site."
+			p "Page web sous licence WTFPL."
+			p class: "tag is-danger is-large", "FIXME: Link + full text"
 
