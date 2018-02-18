@@ -2,8 +2,6 @@
 
 {:render_html} = require "lapis.html"
 
--- FIXME: XHTML, because it’s better, because.
-
 page = (f) ->
 	'<?xml version="1.0" encoding="utf-8"?>\n' ..
 	'<?xml-stylesheet href="enclave.css"?>\n' ..
