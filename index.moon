@@ -17,7 +17,7 @@ print require("template") ->
 
 	-- FIXME: add icons or something
 	section class: "section hero is-primary", ->
-		div class: "container", ->
+		div class: "container", id: "index-menus", ->
 			div class: "columns is-multiline is-gapless has-text-centered", ->
 				a href: "#autonomie", class: "tile column is-one-third", ->
 					div class: "title is-4", "Autonomie"
