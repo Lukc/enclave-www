@@ -1,22 +1,6 @@
 #!/usr/bin/env moon
 
-{:render_html} = require "lapis.html"
-
-page = (f) ->
-	'<?xml version="1.0" encoding="utf-8"?>\n' ..
-	'<?xml-stylesheet href="enclave.css"?>\n' ..
-	"<!DOCTYPE HTML>\n" ..
-	render_html ->
-		html {
-			lang: "fr"
-			"xml:lang": "fr"
-			xmlns: "http://www.w3.org/1999/xhtml"
-		}, ->
-			head ->
-			body ->
-				raw render_html f
-
-print page ->
+print require("template") ->
 	header class: "section hero is-light is-small", ->
 		div class: "hero-body", ->
 			div class: "container", ->
@@ -218,11 +202,15 @@ print page ->
 			h3 class: "subtitle is-3", "Démocratie directe et à petite échelle"
 			div class: "content", ->
 				ul ->
-					li class: "tag is-danger is-large", " FIXME: trouver la forme que cela doit prendre (association, entreprise, groupement d'intérêts, ...)"
 					li ->
-						p "décisions à l’unanimité, parce que le projet ne doit pas devenir un fardeau pour ses membres"
-						p class: "tag is-danger is-large", "FIXME: Exceptions?"
-					li "les ressources mises en commun ne doivent pas être volées aux individus"
+						div class: "tag is-warning is-medium", "Une société civile imobilière sera créée pour servir de structure légale au projet."
+						div class: "tag is-warning is-medium", "Les statuts n’ont pas encore été publiés."
+					li ->
+						p "Les décisions sont pour le moment prises à l’unanimité parmis l’ensemble des membres du projet."
+					li ->
+						p ->
+							text "Nous nous accordons sur l’importance de laisser la possibilité aux membres de partir avec des ressources équivalentes à celles qu’ils ont apporté en arrivant. "
+						div class: "tag is-warning is-medium", "Les détails pratiques n’ont pas encore été décidés."
 
 	section class: "section hero is-light", id: "timeline", ->
 		div class: "container", ->
@@ -280,12 +268,10 @@ print page ->
 				p [[
 					Pendant les 6 mois de la période d’essai, des activités sociales ou des travaux sur l’Enclave seront prévus, pour prendre l’habitude de travailler ou de vivre ensemble.
 				]]
-				p class: "tag is-danger is-large", "FIXME: Où envoyer les candidatures."
-				p class: "tag is-danger is-large", "FIXME: Proposer ses idées, parce que. \\o/"
-
-	footer class: "footer", ->
-		div class: "container", ->
-			p class: "tag is-danger is-large", "FIXME: Mentions légales."
-			p "Page web sous licence WTFPL."
-			p class: "tag is-danger is-large", "FIXME: Link + full text"
+				p ->
+					text "Toute personne intéressée par le projet — souhaitant rejoindre ou non — peut entrer en contact avec nous via "
+					a class: "tag is-info is-medium", href: "xmpp:enclave@chat.tartines.org?join", "un salon de discussion"
+					text "."
+				p ->
+					text "N’hésitez pas à poser des questions ou à proposer de nouvelles idées ! "
 
