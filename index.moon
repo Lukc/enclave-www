@@ -271,7 +271,9 @@ print require("template") ->
 				p ->
 					text "Toute personne intéressée par le projet — souhaitant rejoindre ou non — peut entrer en contact avec nous via "
 					a class: "tag is-info is-medium", href: "xmpp:enclave@chat.tartines.org?join", "un salon de discussion"
-					text "."
+					text " ("
+					a class: "tag is-info is-medium", href: "chatroom.xhtml", "web"
+					text ")."
 				p ->
 					text "N’hésitez pas à poser des questions ou à proposer de nouvelles idées ! "
 
