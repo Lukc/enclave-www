@@ -16,12 +16,12 @@ print require("template") headers: {
 				view_mode: 'fullscreen',
 
 				auto_join_rooms: [
-					'captation@chat.tartines.org',
+					'enclave@chat.tartines.org',
 				],
 				bosh_service_url: 'https://bosh.linkmauve.fr',
 				jid: 'anon.linkmauve.fr',
 				notify_all_room_messages: [
-					'captation@chat.tartines.org',
+					'enclave@chat.tartines.org',
 				],
 			});
 		]]
