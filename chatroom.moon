@@ -5,7 +5,7 @@ print require("template") headers: {
 		-> link rel: "stylesheet", type: "text/css", media: "screen", href: "https://cdn.conversejs.org/css/converse.min.css"
 		-> script src: "https://cdn.conversejs.org/dist/converse.min.js", ->
 	}, ->
-		script [[
+		script -> raw [[
 			converse.initialize({
 				bosh_service_url: 'https://bosh.linkmauve.fr/',
 				show_controlbox_by_default: true,
