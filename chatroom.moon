@@ -23,7 +23,7 @@ print require("template") headers: {
 				notify_all_room_messages: [
 					'enclave@chat.tartines.org',
 				],
-				jid: 'linkmauve.fr',
+				jid: 'anon.linkmauve.fr',
 				keepalive: true,
 				hide_muc_server: true, // Federation is disabled, so no use in
 									   // showing the MUC server.
