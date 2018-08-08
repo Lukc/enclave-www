@@ -1,0 +1,21 @@
+baseURL = "http://www.enclave.netlib.re"
+languageCode = "fr-fr"
+title = "Projet Enclave"
+theme = "ecoloJ"
+
+[params]
+description = "Un projet de vie alternatif, écologique et raisonné."
+
+[mediaTypes]
+[mediaTypes."application/xhtml+xml"]
+suffixes = ["xhtml", "xhtm", "xht"]
+
+[outputFormats]
+  [outputFormats.XHTML]
+    mediaType = "application/xhtml+xml"
+    baseName = "index"
+    isPlainText = true
+
+[outputs]
+home = ["XHTML", "HTML", "RSS"]
+page = ["XHTML", "HTML"]
