@@ -9,7 +9,15 @@
 
 <body>
   {{ partial "header.html" . }}
-  {{ .Content }}
+
+        <section class="section hero is-white">
+            <div class="container hero-body content">
+
+              {{ .Content }}
+
+            </div>
+        </section>
+
   {{ partial "footer.html" . }}
 </body>
 

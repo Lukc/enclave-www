@@ -1,5 +1,6 @@
 +++
 title = "Accueil"
+description = "Présentation rapide du projet"
 draft = false
 +++
 

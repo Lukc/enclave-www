@@ -1,10 +1,7 @@
 # Liste de tâches
 
   * enclave.sass à mettre dans assets d'Hugo + insérer Bulma aussi pour les utiliser
-  * découper le template index.xhtml pour avoir des communs, comme par exemple l'entête et l'enqueue.
   * changer les templates de Converse.js pour être compatible XHTML et faire un pull request
   * ne plus utiliser de CDN pour Converse.js
-  * ajouter la page des mentions légales
-  * Changer la page des mentions légales pour être comme la page d'accueil : Gris d'abord, vert puis blanc
   * Problème sur la page des mentions légales : rien pour revenir à l'accueil
   * Pour le chatroom : comment revenir à l'accueil ?
