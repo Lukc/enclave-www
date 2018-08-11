@@ -8,3 +8,4 @@
   * menu tout en haut sur toutes les pages avec lien vers l'accueil + 1 lien par catégorie (dossier/tag)
   * une page par tag avec la liste des pages en parlant
   * adapter Makefile pour générer automatiquement le site et le déployer, etc. OU utiliser un cron/webhooks
+  * ajouter une carte OpenStreetmap avec différents points intéressants (shortcodes, template à part ?)
