@@ -5,3 +5,6 @@
   * ne plus utiliser de CDN pour Converse.js
   * Problème sur la page des mentions légales : rien pour revenir à l'accueil
   * Pour le chatroom : comment revenir à l'accueil ?
+  * menu tout en haut sur toutes les pages avec lien vers l'accueil + 1 lien par catégorie (dossier/tag)
+  * une page par tag avec la liste des pages en parlant
+  * adapter Makefile pour générer automatiquement le site et le déployer, etc. OU utiliser un cron/webhooks
