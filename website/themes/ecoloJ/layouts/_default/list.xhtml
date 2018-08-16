@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="{{ "enclave.css" |relURL }}"?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+
+        <section class="section hero is-white">
+            <div class="container hero-body content">
+
+              {{ .Content |htmlUnescape}}
+
+              <ul>
+                <!-- Ranges through content/*sections* by title -->
+                {{ range .Pages.ByTitle }}
+                  {{ .Render "li" }}
+                {{ end }}
+              </ul>
+
+            </div>
+        </section>
+
+  {{ partial "footer.html" . }}
+</body>
+
+</html>

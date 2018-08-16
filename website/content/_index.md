@@ -2,6 +2,7 @@
 title = "Accueil"
 description = "Présentation rapide du projet"
 draft = false
+menu = "main"
 +++
 
 <section class="section hero is-white">
