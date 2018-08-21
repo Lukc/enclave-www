@@ -3,7 +3,6 @@
   * enclave.sass à mettre dans assets d'Hugo + insérer Bulma aussi pour les utiliser
   * changer les templates de Converse.js pour être compatible XHTML et faire un pull request
   * ne plus utiliser de CDN pour Converse.js
-  * Problème sur la page des mentions légales : rien pour revenir à l'accueil
   * Pour le chatroom : comment revenir à l'accueil ?
   * menu tout en haut sur toutes les pages avec lien vers l'accueil + 1 lien par catégorie (dossier/tag)
   * une page par tag avec la liste des pages en parlant
