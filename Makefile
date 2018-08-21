@@ -19,5 +19,6 @@ ${PUBDIR}:
 	mkdir -p '${PUBDIR}'
 
 clean:
-	rm ${PUBDIR}/index.xhtml ${PUBDIR}/mentions.xhtml ${PUBDIR}/chatroom.xhtml
+	rm ${PUBDIR}/index.xhtml ${PUBDIR}/mentions.xhtml ${PUBDIR}/chatroom.xhtml ${PUBDIR}/enclave.css
+	rm -r ${PUBDIR}
 
