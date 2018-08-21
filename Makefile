@@ -1,16 +1,17 @@
 PUBDIR = pub
 NODEDIR = node_modules
 SRCDIR = website
+DESTDIR = ${PWD}/${PUBDIR}
 
 all: compile
 
 dependencies: ${NODEDIR}
 
 compile: ${PUBDIR}
-	hugo -s ${SRCDIR} -d ${PWD}/${PUBDIR}
+	hugo -s ${SRCDIR} -d ${DESTDIR}
 
 server: ${PUBDIR}
-	hugo serve -s ${SRCDIR} -d ${PUBDIR}
+	hugo serve -s ${SRCDIR} -d ${DESTDIR}
 
 ${PUBDIR}:
 	mkdir -p ${PUBDIR}
