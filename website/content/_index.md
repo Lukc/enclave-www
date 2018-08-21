@@ -288,8 +288,8 @@ menu = "main"
       </p>
       <p>Toute personne intéressée par le projet — souhaitant rejoindre ou non — peut entrer en contact avec nous via
         <a href="xmpp:enclave@chat.tartines.org?join"
-         class="tag is-info is-medium">un salon de discussion</a> (
-        <a href="/chatroom.xhtml" class="tag is-info is-medium">web</a>).</p>
+         class="tag is-info is-medium">un salon de discussion</a> <!--(
+        <a href="/chatroom.xhtml" class="tag is-info is-medium">web</a>)-->.</p>
       <p>N’hésitez pas à poser des questions ou à proposer de nouvelles idées ! </p>
     </div>
   </div>

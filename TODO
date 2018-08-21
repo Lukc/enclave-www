@@ -1,7 +1,8 @@
 # Liste de tâches
 
-  * changer les templates de Converse.js pour être compatible XHTML et faire un pull request
-  * ne plus utiliser de CDN pour Converse.js
-  * Pour le chatroom : comment revenir à l'accueil ?
+  * Chatroom:
+    * changer les templates de Converse.js pour être compatible XHTML et faire un pull request
+    * ne plus utiliser de CDN pour Converse.js
+    * Pour le chatroom : comment revenir à l'accueil ?
   * une page par tag avec la liste des pages en parlant
   * ajouter une carte OpenStreetmap avec différents points intéressants (shortcodes, template à part ?)
