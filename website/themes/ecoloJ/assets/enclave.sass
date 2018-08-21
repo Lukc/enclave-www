@@ -1,0 +1,69 @@
+
+@import "../node_modules/bulma/sass/utilities/initial-variables"
+@import "../node_modules/bulma/sass/utilities/functions"
+
+$primary: #8bc34a;
+$primary-invert: findColorInvert($primary);
+
+@import "../node_modules/bulma/sass/utilities/derived-variables"
+
+$radius-small: 0px
+$radius: 0px
+$radius-large: 0px
+
+//$secondary: #2879b4;
+$secondary: #ef5350;
+$secondary-invert: findColorInvert($secondary);
+
+$addColors: ( "secondary": ($secondary, $secondary-invert) );
+$colors: map-merge($colors, $addColors);
+
+$gap: 256px;
+
+$family-primary: Roboto, Sans-Serif;
+$body-size: 14pt;
+
+@import "../node_modules/bulma/bulma"
+@import "../node_modules/bulma-timeline/dist/css/bulma-timeline"
+
+.tile
+  min-height: 7.5em;
+
+a.tile.column
+  display: block;
+
+.title
+  font-weight: normal;
+  font-family: Ubuntu, Sans-Serif;
+
+#index-menus .columns a
+  display: flex
+  align-items: center
+  justify-content: center
+
+#index-menus .columns a:hover
+  background-color: rgba(255, 255, 255, 0.1)!important
+
+#index-menus .columns:nth-child(1) .tile:nth-child(1)
+  background-color: #689238
+#index-menus .columns:nth-child(1) .tile:nth-child(2)
+  background-color: #7aab41
+#index-menus .columns:nth-child(1) .tile:nth-child(3)
+  background-color: #34491c
+#index-menus .columns:nth-child(1) .tile:nth-child(4)
+  background-color: #577a2e
+#index-menus .columns:nth-child(1) .tile:nth-child(5)
+  background-color: #466225
+#index-menus .columns:nth-child(1) .tile:nth-child(6)
+  background-color: #689238
+
+#index-menus .columns:nth-child(2) .tile:nth-child(1)
+  background-color: #bfa641
+#index-menus .columns:nth-child(2) .tile:nth-child(2)
+  background-color: #605321
+#index-menus .columns:nth-child(2) .tile:nth-child(3)
+  background-color: #806e2b
+#index-menus .columns:nth-child(2) .tile:nth-child(4)
+  background-color: #dfc14c
+
+

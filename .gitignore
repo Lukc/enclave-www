@@ -1,4 +1,5 @@
 pub
 website/public
+website/resources
 node_modules
 package-lock.json

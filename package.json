@@ -1,6 +1,6 @@
 {
   "name": "enclave",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bulma customized CSS file",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/blankoworld/enclave-www.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "blankoworld",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/blankoworld/enclave-www/issues"
   },

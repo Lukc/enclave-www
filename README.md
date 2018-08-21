@@ -1,10 +1,9 @@
-# Dépendances
+# Dependencies
 
-  * sassc
-  * make
+  * Hugo extended version >=0.43
   * npm
 
-# Install JS dependencies
+# Installation
 
 ```bash
 npm install
