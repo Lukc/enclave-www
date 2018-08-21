@@ -4,5 +4,4 @@
   * ne plus utiliser de CDN pour Converse.js
   * Pour le chatroom : comment revenir à l'accueil ?
   * une page par tag avec la liste des pages en parlant
-  * adapter Makefile pour générer automatiquement le site et le déployer, etc. OU utiliser un cron/webhooks
   * ajouter une carte OpenStreetmap avec différents points intéressants (shortcodes, template à part ?)

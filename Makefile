@@ -1,24 +1,25 @@
-
 PUBDIR = pub
+NODEDIR = node_modules
+SRCDIR = website
 
-all: ${PUBDIR}/index.xhtml ${PUBDIR}/mentions.xhtml ${PUBDIR}/chatroom.xhtml ${PUBDIR}/enclave.css
+all: compile
 
-${PUBDIR}/index.xhtml: index.moon template.moon ${PUBDIR}
-	moon index.moon > ${PUBDIR}/index.xhtml
+dependencies: ${NODEDIR}
 
-${PUBDIR}/mentions.xhtml: mentions.moon template.moon ${PUBDIR}
-	moon mentions.moon > ${PUBDIR}/mentions.xhtml
+compile: ${PUBDIR}
+	hugo -s ${SRCDIR} -d ${PUBDIR}
 
-${PUBDIR}/chatroom.xhtml: chatroom.moon template.moon ${PUBDIR}
-	moon chatroom.moon > ${PUBDIR}/chatroom.xhtml
-
-${PUBDIR}/enclave.css: enclave.sass ${PUBDIR}
-	sassc enclave.sass > ${PUBDIR}/enclave.css
+server: ${PUBDIR}
+	hugo serve -s ${SRCDIR} -d ${PUBDIR}
 
 ${PUBDIR}:
-	mkdir -p '${PUBDIR}'
+	mkdir -p ${PUBDIR}
+
+${NODEDIR}:
+	npm install
 
 clean:
-	rm ${PUBDIR}/index.xhtml ${PUBDIR}/mentions.xhtml ${PUBDIR}/chatroom.xhtml ${PUBDIR}/enclave.css
-	rm -r ${PUBDIR}
+	rm -rf ${PUBDIR} ${SRCDIR}/resources package-lock.json
 
+cleanall: clean
+	rm -rf ${NODEDIR}
