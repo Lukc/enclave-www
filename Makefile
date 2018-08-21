@@ -7,7 +7,7 @@ all: compile
 dependencies: ${NODEDIR}
 
 compile: ${PUBDIR}
-	hugo -s ${SRCDIR} -d ${PUBDIR}
+	hugo -s ${SRCDIR} -d ${PWD}/${PUBDIR}
 
 server: ${PUBDIR}
 	hugo serve -s ${SRCDIR} -d ${PUBDIR}
