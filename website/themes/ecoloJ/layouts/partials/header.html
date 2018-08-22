@@ -1,0 +1,23 @@
+{{ if not .Page.IsHome }}
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-menu is-active">
+      <div class="navbar-start">
+        {{ range .Site.Menus.main }}
+        <a class="navbar-item" href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </nav>
+{{ end }}
+
+  <header class="section hero is-light is-small">
+		<div class="hero-body">
+			<div class="container">
+        <h1 class="title is-1">{{ if .Page.IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+        <h2 class="subtitle is-3">{{ if .Page.IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}</h2>
+			</div>
+		</div>
+	</header>
+

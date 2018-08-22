@@ -1,0 +1,23 @@
+{
+  "name": "enclave",
+  "version": "1.0.1",
+  "description": "Bulma customized CSS file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blankoworld/enclave-www.git"
+  },
+  "author": "blankoworld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blankoworld/enclave-www/issues"
+  },
+  "homepage": "https://github.com/blankoworld/enclave-www#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-timeline": "^3.0.0"
+  }
+}

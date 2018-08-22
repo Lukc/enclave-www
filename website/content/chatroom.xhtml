@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="enclave.css"?>
+	<!DOCTYPE HTML>
+	<html xml:lang="fr" lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://cdn.conversejs.org/css/converse.min.css" media="screen" />
+		<script src="https://cdn.conversejs.org/dist/converse.min.js"></script>
+	</head>
+
+	<body>
+		<script>			converse.initialize({
+				authentication: 'anonymous',
+				auto_login: true,
+				auto_away: 300,
+				auto_reconnect: true,
+				message_archiving: 'always',
+				use_emojione: false,
+				view_mode: 'fullscreen',
+
+				auto_join_rooms: [
+					'enclave@chat.tartines.org',
+				],
+				bosh_service_url: 'https://bosh.linkmauve.fr',
+				jid: 'anon.linkmauve.fr',
+				notify_all_room_messages: [
+					'enclave@chat.tartines.org',
+				],
+			});
+		</script>
+		<footer class="footer">
+			<div class="container">
+				<p>
+					<a href="mentions.xhtml">Mentions légales</a>
+				</p>
+				<p>Page sous licence WTPFL</p>
+			</div>
+		</footer>
+	</body>
+
+	</html>
