@@ -21,13 +21,13 @@ menu = "main"
       <a href="{{< relref "#vie-en-communaute" >}}" class="tile column is-one-third">
         <div class="title is-4">Vie en communauté</div>
       </a>
-      <a href="{{< relref "#ecologie" >}}"  class="tile column is-one-third">
+      <a href="{{< relref "#democratie" >}}"  class="tile column is-one-third">
         <div class="title is-4">Démocratie</div>
       </a>
-      <a href="{{< relref "#technologie" >}}"  class="tile column is-one-third">
+      <a href="{{< relref "#ecologie" >}}"  class="tile column is-one-third">
         <div class="title is-4">Écologie</div>
       </a>
-      <a href="{{< relref "#democratie" >}}"  class="tile column is-one-third">
+      <a href="{{< relref "#technologie" >}}"  class="tile column is-one-third">
         <div class="title is-4">Technologie</div>
       </a>
       <a href="{{< relref "#prestige" >}}"  class="tile column is-one-third">
