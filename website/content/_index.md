@@ -77,7 +77,7 @@ menu = "main"
             Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie, accident, mauvaise récolte, mauvais choix…), le groupe est bien plus résilient, chacun prend soin des autres.
         </p>
       </div>
-      <div class="column is-3 has-text-centered">
+      <div class="column is-3 has-text-centered has-text-grey">
         <div class="fas fa-user-circle fa-9x"/>
       </div>
     </div>
@@ -86,7 +86,7 @@ menu = "main"
 <section id="democratie" class="section hero is-light">
   <div class="container">
     <div class="content columns">
-      <div class="column is-3 has-text-centered">
+      <div class="column is-3 has-text-centered has-text-grey">
         <div class="fas fa-comments fa-9x"/>
       </div>
       <div class="column is-9">
@@ -110,7 +110,7 @@ menu = "main"
             Notre mode de vie, plus simple, permet de réduire drastiquement notre empreinte et se place dans la mouvance de décroissance.
         </p>
       </div>
-      <div class="column is-3 has-text-centered">
+      <div class="column is-3 has-text-centered has-text-grey">
         <div class="fas fa-leaf fa-9x"/>
       </div>
     </div>
@@ -119,7 +119,7 @@ menu = "main"
 <section id="technologie" class="section hero is-light">
   <div class="container">
     <div class="content columns">
-      <div class="column is-3 has-text-centered">
+      <div class="column is-3 has-text-centered has-text-grey">
         <div class="fas fa-cogs fa-9x"/>
       </div>
       <div class="column is-9">
