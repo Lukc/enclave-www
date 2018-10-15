@@ -1,5 +1,5 @@
 +++
-title = "Accueil"
+title = "Enclave"
 description = "Présentation rapide du projet"
 draft = false
 menu = "main"
