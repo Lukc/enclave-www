@@ -21,13 +21,13 @@ menu = "main"
       <a href="{{< relref "#vie-en-communaute" >}}" class="tile column is-one-third">
         <div class="title is-4">Vie en communauté</div>
       </a>
-      <a href="{{< relref "#ecologie" >}}"  class="tile column is-one-third">
+      <a href="{{< relref "#democratie" >}}"  class="tile column is-one-third">
         <div class="title is-4">Démocratie</div>
       </a>
-      <a href="{{< relref "#technologie" >}}"  class="tile column is-one-third">
+      <a href="{{< relref "#ecologie" >}}"  class="tile column is-one-third">
         <div class="title is-4">Écologie</div>
       </a>
-      <a href="{{< relref "#democratie" >}}"  class="tile column is-one-third">
+      <a href="{{< relref "#technologie" >}}"  class="tile column is-one-third">
         <div class="title is-4">Technologie</div>
       </a>
       <a href="{{< relref "#prestige" >}}"  class="tile column is-one-third">
@@ -53,7 +53,9 @@ menu = "main"
 <section id="autonomie" class="section hero is-light">
   <div class="container">
     <div class="content columns">
-      <div class="column is-3" />
+      <div class="column is-3 has-text-centered has-text-grey">
+        <div class="fas fa-seedling fa-9x"/>
+      </div>
       <div class="column is-9">
         <h4 class="title is-3">Autonomie</h4>
         <p> Nous subvenons à nos besoins grâce au fruit de notre travail et à des échanges réfléchis (nous choisissons nos dépendances).
@@ -75,13 +77,18 @@ menu = "main"
             Seul, la moindre erreur ou le moindre problème peut devenir insurmontable (ex: maladie, accident, mauvaise récolte, mauvais choix…), le groupe est bien plus résilient, chacun prend soin des autres.
         </p>
       </div>
-      <div class="column is-3" /></div>
+      <div class="column is-3 has-text-centered has-text-grey">
+        <div class="fas fa-user-circle fa-9x"/>
+      </div>
+    </div>
   </div>
 </section>
 <section id="democratie" class="section hero is-light">
   <div class="container">
     <div class="content columns">
-      <div class="column is-3" />
+      <div class="column is-3 has-text-centered has-text-grey">
+        <div class="fas fa-comments fa-9x"/>
+      </div>
       <div class="column is-9">
         <h4 class="title is-3">Démocratie</h4>
         <p> La démocratie est un mode de prise de décision prenant en compte les intérêts de chacun.
@@ -103,13 +110,18 @@ menu = "main"
             Notre mode de vie, plus simple, permet de réduire drastiquement notre empreinte et se place dans la mouvance de décroissance.
         </p>
       </div>
-      <div class="column is-3" /></div>
+      <div class="column is-3 has-text-centered has-text-grey">
+        <div class="fas fa-leaf fa-9x"/>
+      </div>
+    </div>
   </div>
 </section>
 <section id="technologie" class="section hero is-light">
   <div class="container">
     <div class="content columns">
-      <div class="column is-3" />
+      <div class="column is-3 has-text-centered has-text-grey">
+        <div class="fas fa-cogs fa-9x"/>
+      </div>
       <div class="column is-9">
         <h4 class="title is-3">Technologie</h4>
         <p> La technologie a pris une grande place dans notre quotidien.
