@@ -1,5 +1,6 @@
 +++
-title = Présentation des technologies utilisées
+title = "Technologies"
+description = "Présentation des technologies utilisées"
 +++
 
 # Présentation
